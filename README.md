@@ -1,4 +1,4 @@
-# bitcoin-full-node-docker
+# bitcoin-core-docker
 
 You can run the latest available image as follows:
 ```bash
