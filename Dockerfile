@@ -33,6 +33,4 @@ RUN \
     && apt-get clean
 
 EXPOSE 8333
-
-COPY entrypoint.sh /usr/bin/
-ENTRYPOINT ["entrypoint.sh"]
+ENTRYPOINT ["bitcoind"]

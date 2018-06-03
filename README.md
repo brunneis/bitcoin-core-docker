@@ -2,10 +2,11 @@
 
 You can run the latest available image as follows:
 ```bash
-docker run -ti \
+docker run -d \
 -v "$(pwd)"/bitcoin-data:/root/.bitcoin \
 --name bitcoin-core \
 -p 8333:8333 \
+--restart always \
 brunneis/bitcoin-core
 ```
 
