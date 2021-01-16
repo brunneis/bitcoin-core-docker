@@ -1,5 +1,5 @@
 # Bitcoin Core
-# Copyright (C) 2018 Rodrigo Martínez <dev@brunneis.com>
+# Copyright (C) 2018-2021 Rodrigo Martínez <dev@brunneis.com>
 #
 # This program is free software: you can redistribute it and/or modify
 # it under the terms of the GNU General Public License as published by
@@ -12,7 +12,7 @@
 # You should have received a copy of the GNU General Public License
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
-FROM ubuntu:18.04
+FROM ubuntu:20.04
 MAINTAINER "Rodrigo Martínez" <dev@brunneis.com>
 
 ################################################
